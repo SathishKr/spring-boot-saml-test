@@ -8,7 +8,7 @@ import uk.co.jamesrossiter.spring.boot.saml.api.stereotypes.IdpUser;
 @Controller
 public class LandingController {
 
-	@Value("${front.end.url:http://localhost:3000}")
+	@Value("${FRONT_END_URL:http://localhost:3000}")
 	private String frontEndUrl;
 
 	@RequestMapping("/landing")
